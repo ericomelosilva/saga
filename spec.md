@@ -83,7 +83,7 @@ Saga uses a call-by-value, small-step reduction strategy inspired by lambda calc
 ## 4. TODO
 
 1. **Specification:**  
-   Finalize the language’s specification (this document) including grammar, minimal kernel definitions, and domain-specific extensions.
+   Finalize the language’s specification including updates to grammar, minimal kernel definitions, and domain-specific extensions.
 
 2. **AST and Parser Development:**  
    Define the Abstract Syntax Tree in Rust (`src/ast.rs`) and implement the parser (using libraries like Pest or Nom (`src/parser.rs`, `src/lexer.rs`).)
@@ -95,9 +95,9 @@ Saga uses a call-by-value, small-step reduction strategy inspired by lambda calc
    Build a module for probabilistic operations (`src/prob.rs`) and extend domain-specific types (Gene, Protein, etc.) with methods reflecting biological processes.
 
 5. **Testing and Iteration:**  
-   Create sample programs (e.g., in `tests/sample_program.saga`) to test the DSL’s core functionality. Iterate based on feedback and progressively add features such as dependent types or fuzzy predicates.
+   TESTS: (e.g., in `tests/sample_program.saga`) to test the language’s core functionality. Iterate and progressively add features such as dependent types or fuzzy predicates.
 
 6. **Integration with ML Components:**  
-   Eventually (big pie in the sky dream) integrate with neural ODE/PDE solvers and ML modules for advanced hypothesis generation and inference.
+   Eventually (this is a big pie in the sky dream) integrate with neural ODE/PDE solvers and ML modules for advanced hypothesis generation and inference.
 
 **End of Specification**
